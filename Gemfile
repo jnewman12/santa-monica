@@ -9,12 +9,12 @@ gem 'sinatra-flash'
 gem 'sinatra-redirect-with-flash'
 gem 'pony'
 
-group :development do
+#group :development do
 	# tux gets data into the db
- gem 'sqlite3'
- gem "tux"
-end
+# gem 'sqlite3'
+# gem "tux"
+#end
 
-group :production do
- gem 'pg'
-end
+#group :production do
+# gem 'pg'
+#end
