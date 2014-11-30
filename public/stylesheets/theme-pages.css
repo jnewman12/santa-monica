@@ -1,0 +1,72 @@
+/* css base for all theme display pages */
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+/* over-riding bootstrap defaults */
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.opening {
+	padding: 75px;
+	background-color: #050002;
+	color: white;
+}
+
+.main-display {
+	padding: 100px;
+}
+
+img {
+	width: 500px;
+	height: 420px;
+}
+
+.code-used li, .download li {
+	display: inline-block;
+}
+
+.download span i {
+	padding: 5px;
+}
+
+
+/* footer */
+footer {
+    padding: 25px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: #F9530B;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+}
