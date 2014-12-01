@@ -23,11 +23,15 @@ get "/" do
 end
 
 get "/restaurant" do 
-	erb :"welcome/restaurant"
+	erb :"theme-pages/restaurant"
 end
 
 get "/pro-single" do 
 	erb :"theme-pages/pro-single"
+end
+
+get "/skrollr" do 
+	erb :"theme-pages/skrollr"
 end
 
 get '/javascripts/:main.js' do |script|
